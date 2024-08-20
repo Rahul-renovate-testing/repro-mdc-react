@@ -1,7 +1,9 @@
 {
-  "prHourlyLimit": 10,
-  "packageRules": [{
-    "extends": ["monorepo:mdc-react"],
-    "groupName": "mdc-react monorepo updates"
-  }]
+  "extends": ["group:mdc-reactMonorepo"],
+  "packageRules": [
+    {
+      "extends": ["monorepo:mdc-react"],
+      "addLabels": ["mdc"]
+    }
+  ]
 }

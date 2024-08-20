@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@material/react-tab": "0.14.0",
+    "@material/react-tab": "0.15.0",
     "@material/react-switch": "0.14.0"
   }
 }
